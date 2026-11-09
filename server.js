@@ -11,9 +11,9 @@ const PORT = process.env.PORT || 3000;
 const ADMIN_KEY = process.env.ADMIN_KEY || '';
 const DATA = process.env.DATA_FILE || path.join(__dirname, 'data', 'votes.json');
 const QUESTIONS = [
-  'By 2030, AI will make my work as a teacher more fun.',
-  'Our team could teach AI skills to people far beyond our own students.',
-  "I've built something with AI myself in the past month."
+  'In the past month, an AI agent wrote most of the code I committed.',
+  'I understand every line of code my agent writes for our app.',
+  'Our app would clearly be better with an AI feature built in.'
 ];
 
 let votes = {}; // voter -> { [q]: 'agree' | 'disagree' }
